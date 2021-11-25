@@ -1,13 +1,16 @@
 {% extends 'base.html' %}
-{% load bootstrap4 %}
+
 {% block title %}
 LISTA DE USUÁRIOS
 {% endblock title %}
+
 {% block content %}
 
-<div class="card-primary">
-    <div class="box-header">
-        <h3 class="box-title"><b>LISTA DE USUÁRIOS</b></h3>
+<div class="card card-primary">
+    <div class="card-header">
+        <div class="card-title"><b>            
+            LISTA DE USUÁRIOS CADASTRADOS </b>       
+        </div>
     </div>
     <div class="box-body">        
             <table class="table">
@@ -16,25 +19,36 @@ LISTA DE USUÁRIOS
                         <th><b>NOME </b></th>
                         <th><b>DATA DE NASCIMENTO </b></th>
                         <th><b>LOGIN</b></th>
-                        <th><b>SENHA</b></th>                        
+                        <th><b>SENHA</b></th>
+                        <th><b>AÇÕES</b></th>                         
                     </tr>
                 </thead>
                 <tbody>
                     {% for usuario in usuarios %}
                         <tr>
-                            <td><a href="#">{{ usuario.nome }}</a></td>
+                            <td><a href="{% url 'lista_usuario' usuario.id %}">{{ usuario.nome }}</a></td>
                             <td>{{ usuario.data_nascimento }}</td>
                             <td>{{ usuario.login }}</td>
-                            <td>{{ usuario.senha }}</td>
-                            
+                            <td>{{ usuario.senha }}</td>                            
+                            <td>
+                            <!-- Não adicionei as funcinalides de adicionar ou 
+                                remover o usuário, apenas immputei para deixar
+                                mais completinho na tela-->
+                            <a href="#">Editar</a>
+                            <a href="#">|</a>
+                            <a href="#"><font color="red">Remover</font></a>
+                        </td>
                         </tr>
                     {% endfor %}
                 </tbody>
             </table>
-            <hr>
-            <a href="{% url 'cadastrar_usuario' %}" class="btn btn-info">CADASTRAR MAIS</a><br>
-        <br>        
+        </div>                   
     </div>
-</div>  
+</div> 
+<br>
+<hr>
+    <!-- clicando no aref redireciona para a página de cadastro de usuário-->
+    <a href="{% url 'cadastrar_usuario' %}" class="btn btn-primary">Cadastrar Usuário</a><br>
+<br> 
 
 {% endblock content %}

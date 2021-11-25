@@ -76,27 +76,27 @@ WSGI_APPLICATION = 'desafio_projeto.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'HOST': '0.0.0.0',
-#         'PORT': '3306',
-#         'NAME': 'ediaristas',
-#         'USER': 'root',
-#         'PASSWORD': 'my-secret-pw',        
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
+        'HOST': '0.0.0.0',
         'PORT': '3306',
         'NAME': 'desafio_final',
         'USER': 'root',
-        'PASSWORD': '@Yamato123'    
+        'PASSWORD': 'my-secret-pw',        
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#         'NAME': 'desafio_final',
+#         'USER': 'root',
+#         'PASSWORD': '@Yamato123'    
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
