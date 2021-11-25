@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block content %}
+<!-- aqui estamos renderizando o formulário de cadastro de usuário atraves das views de usuario_forms-->
+<div class="card card-primary">
+    <div class="card-header">
+        <div class="card-title"><b>            
+                CADASTRO DE USUÁRIO        
+    </div>
+    </div>       
+    <div class="card-body">
+        <form method="POST">
+            {% csrf_token %}
+            {% bootstrap_form form_usuario%}               
+            <input type="submit" class="btn btn-primary" value="Cadastrar Usuário"> <br>
+            <br>
+        </form>
+    </div>
+</div>
+{% endblock content %}

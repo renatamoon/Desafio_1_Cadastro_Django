@@ -1,0 +1,25 @@
+{% extends 'adminlte/lib/_main_sidebar.html' %}
+
+{% block logo_text %}     
+<span class="brand-text font-weight-bold">DESAFIO 1</span>
+{% endblock logo_text %}
+
+{% block nav_heading %}
+Links de Navegação
+{% endblock nav_heading %}
+
+{% block nav_links %}
+<li class="nav-item">
+    <a href="{% url 'listar_usuarios' %}" class="nav-link">
+        <i class="nav-icon fas fa-cog"></i> 
+        <p>LISTA DE USUÁRIOS</p>
+    </a>
+</li>
+<li class="nav-item">
+    <a href="{% url 'cadastrar_usuario' %}" class="nav-link">
+        <i class="nav-icon fas fa-user"></i> 
+        <p>ÁREA DE CADASTRO </p>
+    </a>
+</li>
+
+{% endblock nav_links %}
