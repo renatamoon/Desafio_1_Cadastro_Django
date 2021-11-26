@@ -17,7 +17,6 @@
 ## <a id="projeto"> 💻 SOBRE O DESAFIO </a><br>
 
 - Cadastrar usuário, fornecendo o login, senha e data de nascimento
-- Senha deixar como opcional, se não fornecido gerar uma senha aleatória.
 - Baixar todos os usuários cadastrados em XLSX.
 - Enviar no formato .zip
 
