@@ -1,6 +1,8 @@
 # Desafio_1_Cadastro_Django
 
-<i>Desafio Tech (Automação)</i><br>
+<i>Desafio Tech (Automação)</i>  |  [BD - Arquivo XLSX - para verificação](https://github.com/renatamoon/Desafio_1_Cadastro_Django/blob/workpc/usuarios_usuario_202111252128.xml)<br>
+
+<hr>
 
 <hr>
 <p align="center">
