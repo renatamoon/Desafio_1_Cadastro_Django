@@ -98,6 +98,8 @@ Visual da Página de Administração do AdminLTE com Django + Bootstrap:
 <br>
 <br>
 -Links de Navegação (Lista de Usuários + Área de Cadastro):
+<br>
+<br>
 ![image](https://user-images.githubusercontent.com/87100340/143511473-0eba91e3-b901-42ee-a39f-23b6f29288d0.png)
 <br>
 <br>
