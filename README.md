@@ -88,20 +88,27 @@ DATABASES = {
 
 ## <a id="imagens"> 🔴 IMAGENS FINAIS: </a> 
 
-Visual da Página de Administração do AdminLTE com Django + Bootstrap:<br>
+Visual da Página de Administração do AdminLTE com Django + Bootstrap:
 <br>
--Lista dos Usuários cadastrados (funcionalidade de edição e remoção não fora inclusas);
+<br>
+-Lista dos Usuários cadastrados (funcionalidade de edição e remoção não fora inclusas):
+<br>
 <br>
 ![image](https://user-images.githubusercontent.com/87100340/143511328-98bfc273-842d-4ea6-8820-671d1690b0c0.png)
 <br>
--Links de Navegação (Lista de Usuários + Área de Cadastro);<br>
+<br>
+-Links de Navegação (Lista de Usuários + Área de Cadastro):
 ![image](https://user-images.githubusercontent.com/87100340/143511473-0eba91e3-b901-42ee-a39f-23b6f29288d0.png)
+<br>
 <br>
 -Clicando no Nome do usuário será redirecionado para o perfil com todos os dados do usuários:
 <br>
+<br>
 ![image](https://user-images.githubusercontent.com/87100340/143511496-8a836b97-6370-4a40-90b6-3b2821a2b1c6.png)
 <br>
+<br>
 -Também há a funcionalidade de impressão do perfil deste usuário:
+<br>
 <br>
 ![image](https://user-images.githubusercontent.com/87100340/143511623-fb3a0146-1e03-4a70-a6f9-17c6f0288538.png)
 
@@ -109,11 +116,14 @@ Visual da Página de Administração do AdminLTE com Django + Bootstrap:<br>
   
 ## <a id="links_apps"> 🔴 LINKS ÚTEIS </a> 
 
-*USANDO DBEAVER PARA EXPORTAÇÃO DOS DADOS EM XML <br>
+*USANDO DBEAVER PARA EXPORTAÇÃO DOS DADOS EM XML:
 <br>
-https://dbeaver.com/docs/wiki/Data-transfer/ - documentação para exportação de dados do DBeaver<br>
 <br>
-*USANDO O ADMINLTE - Bootstrap Admin Dashboard Template<br>
+https://dbeaver.com/docs/wiki/Data-transfer/ - documentação para exportação de dados do DBeaver
+<br>
+<br>
+*USANDO O ADMINLTE - Bootstrap Admin Dashboard Template:
+<br>
 <br>
 https://adminlte.io/<br>
   
