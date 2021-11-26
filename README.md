@@ -7,3 +7,8 @@ Cadastrar usuário, fornecendo o login, senha e data de nascimento
 Senha deixar como opcional, se não fornecido gerar uma senha aleatória.
 Baixar todos os usuários cadastrados em XLSX.
 Nos enviar no formato .zip
+
+------
+
+https://dbeaver.com/docs/wiki/Data-transfer/ - documentação para exportação de dados do DBeaver
+
