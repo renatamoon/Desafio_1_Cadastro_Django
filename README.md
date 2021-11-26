@@ -12,12 +12,12 @@
 </p>
 <hr>
 
-## <a id="projeto"> 💻 SOBRE ESTE DESAFIO </a><br>
+## <a id="projeto"> 💻 SOBRE O DESAFIO </a><br>
 
 - Cadastrar usuário, fornecendo o login, senha e data de nascimento
 - Senha deixar como opcional, se não fornecido gerar uma senha aleatória.
 - Baixar todos os usuários cadastrados em XLSX.
-- Nos enviar no formato .zip
+- Enviar no formato .zip
 
 > 🟩 Status do projeto: FINALIZADO <br>
 <hr>
@@ -87,7 +87,7 @@ DATABASES = {
 ## <a id="imagens"> 🔴 IMAGENS FINAIS: </a> 
 
 Visual da Página de Administração do AdminLTE com Django + Bootstrap:<br>
-  <br>
+<br>
 -Lista dos Usuários cadastrados (funcionalidade de edição e remoção não fora inclusas);
 <br>
 ![image](https://user-images.githubusercontent.com/87100340/143511328-98bfc273-842d-4ea6-8820-671d1690b0c0.png)
